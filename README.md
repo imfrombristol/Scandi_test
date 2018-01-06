@@ -1,3 +1,6 @@
+Hello, my dear friends. 
+It's a little bit funny, but I have a few days to learn Angular and try to complete the test. Looks like a challenge, but okay, let's see. 
+
 # MyApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.3.
