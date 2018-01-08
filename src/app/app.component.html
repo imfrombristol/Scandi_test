@@ -1,13 +1,17 @@
 
 
-    <div>
-        <router-outlet></router-outlet>
+    <div class="wind_cont">
+        <div>
+            <router-outlet></router-outlet>
+        </div>
+    
+        <div class="container">
+            <nav class="menu_back">
+                <a class="menu_item list1_img" routerLink="/list1" routerLinkActive="active"></a>
+                <a class="menu_item list2_img" routerLink="/list2" routerLinkActive="active"></a>
+                <a class="menu_item notification_img" routerLink="/notification" routerLinkActive="active"></a>
+                <a class="menu_item bookmark_img" routerLink="/bookmark" routerLinkActive="active"></a>
+                <a class="menu_item profile_img" routerLink="/profile" routerLinkActive="active"></a>
+            </nav>
+        </div>
     </div>
-
-    <nav class="menu_back">
-        <a class="menu_item" routerLink="/list1" routerLinkActive="active"><img src="../assets/icons/main.svg" alt=""></a>
-        <a class="menu_item" routerLink="/list2" routerLinkActive="active"><img src="../assets/icons/staticstic.svg" alt=""></a>
-        <a class="menu_item" routerLink="/notification" routerLinkActive="active"><img src="../assets/icons/notification.svg" alt=""></a>
-        <a class="menu_item" routerLink="/bookmark" routerLinkActive="active"><img src="../assets/icons/bookmark.svg" alt=""></a>
-        <a class="menu_item" routerLink="/profile" routerLinkActive="active"><img src="../assets/icons/profile.svg" alt=""></a>
-    </nav>
