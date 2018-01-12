@@ -5,3 +5,6 @@ body {
   background-color: #161823;
   color: white;
   font-family: 'Lato', 'Helvetica', 'Arial', sans-serif; }
+
+.body::-webkit-scrollbar {
+  display: none; }

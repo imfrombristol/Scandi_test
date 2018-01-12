@@ -1,0 +1,8 @@
+@import "../_vars.scss";
+
+.wind_cont::-webkit-scrollbar {
+  display: none;
+};
+.wind_cont {
+  @include screen_view;
+}
