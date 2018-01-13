@@ -43,3 +43,7 @@ a {
 
 .months_nav::-webkit-scrollbar {
   display: none; }
+
+.outlet {
+  width: 200px;
+  height: 200px; }
